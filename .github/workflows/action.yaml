@@ -10,6 +10,7 @@ jobs:
         uses: xu-cheng/latex-action@v2
         with:
           root_file: kaken.tex
+          extra_system_packages: "cjk"
       - name: Upload PDF file
         uses: actions/upload-artifact@v3
         with:
