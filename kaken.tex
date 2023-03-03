@@ -1,18 +1,26 @@
 %\documentclass[pdflatex,ja=standard,twocolumn]{bxjsarticle}
-\documentclass[twocolumn]{bxjsarticle}
+\documentclass[twocolumn]{jsarticle}
+\usepackage[margin=20truemm]{geometry}
+\usepackage{color}
+
+\pagestyle{empty}
 \begin{document}
 
 
-\title{図書室連携予約アプリケーション開発}
-\author{課題研究I 情報系\and 佐藤昌浩 \and 清宮大輝 \and 片倉暖人 \and 深作蓮 \and 福原啓介}
+
+\title{図書室連携 予約アプリケーション開発}  
+\author{課題研究I 情報系 \and 片倉暖人 \and 清宮大輝 \and 佐藤昌浩 \and 深作蓮 \and 福原啓介}
 \date{\vspace{-10mm}}
 
 \twocolumn[
-  \vspace{-30mm}
+  \vspace{-15mm}
   \maketitle
     
     \begin{abstract}  
-    図書室の利用を促進させるために簡単に蔵書検索・予約ができるアプリケーションをFlutterを用いて開発する
+    昨今減少しつつある図書室の利用者数を増加させるために、図書室の利用が簡単かつ快適になるアプリケーションを
+    マルチプラットフォームに対応したフレームワークFlutter\footnote{} を用いて開発した。
+    ベータテストの結果半数以上のユーザーから図書室の利用が快適になったという意見が得られ、
+    本アプリケーションを公開することにより図書室利用者数の増加が期待できる。
     \end{abstract}
 
 ]
@@ -51,5 +59,6 @@ Flutterを用いてweb上とスマートフォン端末で使える図書室ア�
 そのためには、ユーザーのニーズや要望を常に把握し、それに応じた改善を行っていくことが重要だ。
 具体的には、アプリケーションのUIの改善や検索精度の向上、蔵書情報の充実、などが挙げられた。
 これらの改善に取り組むことで、より使いやすく便利なアプリケーションを提供し、図書室の利用促進に貢献したいと考えている。
-
+\color{white}
+dummy\footnote[1]{Googleが開発したフレームワークでWeb・PC・スマートフォンなどで動くアプリケーションの同時開発が行える。使用言語は同社開発のDart}
 \end{document}
